@@ -8,7 +8,7 @@ export const HomeScreen = ({navigation}) => {
   return (
     <SafeAreaView style={styles.container}>
       <Button title="CAMERA" onPress={()=>{navigation.navigate("CAMERA")}}/>
-      <Button title="VIDEO" onPress={()=>{navigation.navigate("CAMERA")}}/>
+      <Button title="VIDEO" onPress={()=>{navigation.navigate("VIDEO")}}/>
     </SafeAreaView>
   )
 }
